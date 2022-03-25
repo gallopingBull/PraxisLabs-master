@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d95d9be4d8dac3f43ba9dd1ad6193ae4, type: 3}
+  m_Name: Emily_NarrativeData
+  m_EditorClassIdentifier: 
+  _scenes:
+  - _sceneID: Scene
+    _narratorAudioClip: {fileID: 0}
+    IntroSceneLevel: {fileID: 0}
+    _sequences:
+    - _sequenceID: 2M
+      _narratorAudioClip: {fileID: 8300000, guid: 1fb59788c78729d4e8053e49e9e441bd, type: 3}
+      _sequenceIntroCC: "NARRATOR: One key skill for inclusive leadership is identifying
+        bias. Acknowledging that issues of\r Representation, Resources, and Respect
+        don\u2019t happen in isolation, can you identify\r what type of bias is MOST
+        at play here - representation, resources, or respect?"
+      SequenceLevel: {fileID: 0}
+      _someTimelineClips: {fileID: 0}
+      Choices:
+      - Choice_Title: Representation
+        isCorrectChoice: 0
+        ButtonLocation: {x: 0, y: 0, z: 0}
+        _outcome:
+          OutcomeID: 2Ma
+          _responseClip: {fileID: 8300000, guid: ad9dbe8b022a26c458ed3e16a6cd22cd, type: 3}
+          _closedCaptionDialog: "NARRATOR\r: While bias could be a sign that there
+            is a lack of representation and resources, in this\r incident, Emily
+            isn\u2019t respecting her coworker\u2019s space and body.\r In each of
+            the modules you complete, you will return to the platform after the immersive\r
+            experience and learn about the research behind incidents of bias you
+            experienced as\r well as the impact these incidents have on the people
+            affected."
+          _progressValue: 1000
+      - Choice_Title: Resource
+        isCorrectChoice: 0
+        ButtonLocation: {x: 280, y: 0, z: 0}
+        _outcome:
+          OutcomeID: 2Ma
+          _responseClip: {fileID: 8300000, guid: ad9dbe8b022a26c458ed3e16a6cd22cd, type: 3}
+          _closedCaptionDialog: "NARRATOR\r: While bias could be a sign that there
+            is a lack of representation and resources, in this\r incident, Emily
+            isn\u2019t respecting her coworker\u2019s space and body.\r In each of
+            the modules you complete, you will return to the platform after the immersive\r
+            experience and learn about the research behind incidents of bias you
+            experienced as\r well as the impact these incidents have on the people
+            affected."
+          _progressValue: 5
+      - Choice_Title: Respect
+        isCorrectChoice: 1
+        ButtonLocation: {x: 560, y: 0, z: 0}
+        _outcome:
+          OutcomeID: 2Mb
+          _responseClip: {fileID: 8300000, guid: 0be92e650a0873b44b7cc68fe739d090, type: 3}
+          _closedCaptionDialog: "NARRATOR:\r Good job in identifying an example of
+            a \u201CRespect\u201D bias! In each of the modules you\r complete, you
+            will return to the platform and learn about the research behind incidents\r
+            of bias you experienced as well as the impact these incidents have on
+            the people\r affected."
+          _progressValue: 25
+    - _sequenceID: 2N
+      _narratorAudioClip: {fileID: 8300000, guid: 98c08d04b29b46b43ba096ddeac3f221, type: 3}
+      _sequenceIntroCC: "NARRATOR\r: After identifying a problem, a key skill for
+        conscious leadership is taking action to\r address bias and promote equity
+        in the workplace. Let\u2019s go back to the scene to see\r how we can respond
+        as Ify in this situation..."
+      SequenceLevel: {fileID: 0}
+      _someTimelineClips: {fileID: 0}
+      Choices: []
+    _someTimelineClips: {fileID: 11400000, guid: ec89068fd4669674cad8c6ec5eba7c55, type: 2}

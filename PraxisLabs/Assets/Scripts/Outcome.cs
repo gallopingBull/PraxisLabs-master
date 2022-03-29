@@ -9,7 +9,7 @@ public class Outcome
     //[HideInInspector]
     public string OutcomeID = "Response"; //ID
     
-    [Tooltip("Audio clip for narrator response dialof after use makes a choice.")]
+    [Tooltip("Audio clip for narrator response dialog after user makes a choice.")]
     [SerializeField] AudioClip _responseClip;
     
     [TextArea]

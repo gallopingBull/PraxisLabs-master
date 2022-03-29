@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 [Serializable]
 /// <summary>
-/// Static action delegates for different narrative events.
+/// 
 /// </summary>
 public class Outcome
 {
